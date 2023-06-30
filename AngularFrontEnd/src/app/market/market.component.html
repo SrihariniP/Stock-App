@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="jumbotron">
+        <form [formGroup]="checkoutForm">
+            
+            <div>
+                <label for="cmpName">Enter the name of the company:</label>
+                <input type="text" class="form-control" id="cmpName" name="cmpName" formControlName="cmpName" placeholder="INFY">
+
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+        </form>
+    </div>
+    </div>

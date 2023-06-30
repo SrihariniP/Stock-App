@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: #f4511e; /* Orange */
+    color: #ffffff;
+    text-align:center;
+}
+
+.input-group-btn{
+    padding-left: 10px;
+}
